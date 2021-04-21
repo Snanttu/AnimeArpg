@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Controller : Mortal_Object
+// Player character
+public class Player_Controller : Attack_Object
 {
     private Rigidbody _mainRB;
+    private Animator _animator;
 
     private float _horizontal;
     private float _vertical;
@@ -17,13 +19,30 @@ public class Player_Controller : Mortal_Object
     {
         base.Start();
         _mainRB = GetComponent<Rigidbody>();
+        _animator = GetComponent<Animator>();
     }
 
     new void Update()
     {
         base.Update();
         _horizontal = Input.GetAxisRaw("Horizontal");
-        _vertical = Input.GetAxisRaw("Vertical");        
+        _vertical = Input.GetAxisRaw("Vertical");   
+           
+        // Character is running
+        if (_horizontal != 0 || _vertical != 0)
+        {
+            // Rotate character towards movement                 public static Vector3 RotateTowards(Vector3 current, Vector3 target, float maxRadiansDelta, float maxMagnitudeDelta);
+            float singleStep = 10f * Time.deltaTime;
+            Vector3 newDirection = Vector3.RotateTowards(transform.forward, new Vector3(_horizontal, 0.0f, _vertical), singleStep, 0.0f);
+            transform.rotation = Quaternion.LookRotation(newDirection);
+
+            _animator.SetInteger("_animState", 1);
+        }
+        // Character standing still
+        else
+        {
+            _animator.SetInteger("_animState", 0);
+        }
     }
 
     private void FixedUpdate()
