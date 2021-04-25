@@ -6,9 +6,13 @@ using UnityEngine;
 public class Mortal_Object : MonoBehaviour
 {
     [SerializeField]
-    protected int _BaseHealth;
+    protected int _baseHealth;
     [SerializeField]
-    protected int _BaseMagic;
+    protected int _baseMagic;
+    [SerializeField]
+    protected int _baseArmour;
+    [SerializeField]
+    protected int _baseMagicArmour;
 
     protected int _currentHealth;
     protected int _maximumHealth;
@@ -34,11 +38,15 @@ public class Mortal_Object : MonoBehaviour
 
     protected void Start()
     {
-        _maximumHealth = _BaseHealth;
+        // Set base stats
+        _maximumHealth = _baseHealth;
         _currentHealth = _maximumHealth;
 
-        _maximumMagic = _BaseMagic;
+        _maximumMagic = _baseMagic;
         _currentMagic = _maximumMagic;
+
+        _armour = _baseArmour;
+        _magicArmour = _baseMagicArmour;
     }
 
     protected void Update()
@@ -69,31 +77,43 @@ public class Mortal_Object : MonoBehaviour
         }
     }
 
-    public void GetHit(int _physDamage, int _magicDamage, int _magicLoss)
+    public void GetHit(int _physDamage, int _magicDamage, int _magicLoss, GameObject _attacker)
     {
-        TakeDamage(_physDamage, _magicDamage);
+        TakeDamage(_physDamage, _magicDamage, _attacker);
         LoseMagic(_magicLoss);
     }
 
-    protected void TakeDamage(int _physDamage, int _magicDamage)
+    protected void TakeDamage(int _physDamage, int _magicDamage, GameObject _attacker)
     {
-        float _physMitigation = _armour / _armour + _physDamage;
-        // Maximum mitigation
-        if (_physMitigation > 0.75)
+        float _physMitigation = 1;
+        if (_armour > 0)
         {
-            _physMitigation = 0.75f;
+            _physMitigation = (float)_armour / (_armour + _physDamage);
+            // Maximum mitigation
+            if (_physMitigation > 0.75)
+            {
+                _physMitigation = 0.75f;
+            }
+            _physMitigation = 1 - _physMitigation;
         }
 
-        float _magicMitigation = _magicArmour / _magicArmour + _magicDamage;
-        // Maximum mitigation
-        if (_magicMitigation > 0.75)
+        float _magicMitigation = 1;
+        if (_magicArmour > 0)
         {
-            _magicMitigation = 0.75f;
-        }
+            _magicMitigation = (float)_magicArmour / (_magicArmour + _magicDamage);
+            // Maximum mitigation
+            if (_magicMitigation > 0.75)
+            {
+                _magicMitigation = 0.75f;
+            }
+            _magicMitigation = 1 - _magicMitigation;
+        }        
 
         int finalDamage = ((int) (_physDamage * _physMitigation) + (int) (_magicDamage * _magicMitigation));
 
         _currentHealth -= finalDamage;
+
+        Debug.Log(_attacker.name + " Dealt " + finalDamage + " damage to " + gameObject.name);
     }
 
     protected void LoseMagic(int _amount)

@@ -9,6 +9,8 @@ public class Attack_Object : Mortal_Object
     protected int _basePhysicalAttack;
     [SerializeField]
     protected int _baseMagicAttack;
+    [SerializeField]
+    protected LayerMask _enemies;
 
     new void Start()
     {
@@ -20,8 +22,13 @@ public class Attack_Object : Mortal_Object
         base.Update();
     }
 
-    protected void DealHit(int _physDamage, int _magicDamage, int _magicLoss, Mortal_Object _target)
+    public void DealHit(Mortal_Object _target)
     {
-        _target.GetHit(_physDamage, _magicDamage, _magicLoss);
+        _target.GetHit(_basePhysicalAttack, _baseMagicAttack, 0, gameObject);
+    }
+
+    public LayerMask GetTargets()
+    {
+        return _enemies;
     }
 }
