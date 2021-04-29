@@ -14,6 +14,19 @@ public class Mortal_Object : MonoBehaviour
     [SerializeField]
     protected int _baseMagicArmour;
 
+    protected Rigidbody _mainRB;
+    protected Animator _animator;
+
+    [SerializeField]
+    private GameObject _damageText;
+    [SerializeField]
+    private Transform _damageLocation;
+    [SerializeField]
+    private Transform _center;
+
+    private float _staggerCD = 0.5f;
+    private float _staggerLeft = 0;
+
     protected int _currentHealth;
     protected int _maximumHealth;
     protected int _currentMagic;
@@ -38,6 +51,9 @@ public class Mortal_Object : MonoBehaviour
 
     protected void Start()
     {
+        _mainRB = GetComponent<Rigidbody>();
+        _animator = GetComponent<Animator>();
+
         // Set base stats
         _maximumHealth = _baseHealth;
         _currentHealth = _maximumHealth;
@@ -51,6 +67,15 @@ public class Mortal_Object : MonoBehaviour
 
     protected void Update()
     {
+        if (_staggerLeft > 0)
+        {
+            _staggerLeft -= Time.deltaTime;
+        }
+        else
+        {
+            _animator.SetFloat("_damage", 0);
+        }
+
         // Health constraints
         if (_currentHealth > _maximumHealth)
         {
@@ -77,13 +102,13 @@ public class Mortal_Object : MonoBehaviour
         }
     }
 
-    public void GetHit(int _physDamage, int _magicDamage, int _magicLoss, GameObject _attacker)
+    public void GetHit(int _physDamage, int _magicDamage, int _magicLoss, GameObject _attacker, GameObject _hitEffect)
     {
-        TakeDamage(_physDamage, _magicDamage, _attacker);
+        TakeDamage(_physDamage, _magicDamage, _attacker, _hitEffect);
         LoseMagic(_magicLoss);
     }
 
-    protected void TakeDamage(int _physDamage, int _magicDamage, GameObject _attacker)
+    protected void TakeDamage(int _physDamage, int _magicDamage, GameObject _attacker, GameObject _hitEffect)
     {
         float _physMitigation = 1;
         if (_armour > 0)
@@ -110,10 +135,21 @@ public class Mortal_Object : MonoBehaviour
         }        
 
         int finalDamage = ((int) (_physDamage * _physMitigation) + (int) (_magicDamage * _magicMitigation));
-
+        Instantiate(_hitEffect, _center.position, _center.rotation);
         _currentHealth -= finalDamage;
 
-        Debug.Log(_attacker.name + " Dealt " + finalDamage + " damage to " + gameObject.name);
+        if (_damageText != null)
+        {
+            GameObject _text = Instantiate(_damageText, _damageLocation.position, Quaternion.identity);
+            Floating_Text _textScript = _text.GetComponent<Floating_Text>();
+            _textScript.SetText(finalDamage.ToString());
+        }
+
+        if (_staggerLeft <= 0)
+        {
+            _staggerLeft = _staggerCD;
+            _animator.SetFloat("_damage", 1);
+        }
     }
 
     protected void LoseMagic(int _amount)
@@ -123,6 +159,18 @@ public class Mortal_Object : MonoBehaviour
 
     protected void Death()
     {
-        Destroy(gameObject);
+        GetComponent<Collider>().enabled = false;
+        GetComponent<Mortal_Object>().enabled = false;
+        _animator.SetBool("_death", true);
+    }
+
+    public int GetMaxHealth()
+    {
+        return _maximumHealth;
+    }
+
+    public int GetHealth()
+    {
+        return _currentHealth;
     }
 }

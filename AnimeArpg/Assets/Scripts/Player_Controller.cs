@@ -10,9 +10,6 @@ public class Player_Controller : Attack_Object
     [SerializeField]
     private Collider[] _hitboxes;
 
-    private Rigidbody _mainRB;
-    private Animator _animator;
-
     private float _horizontal;
     private float _vertical;
     private float _moveLimiter = 0.7f;
@@ -24,23 +21,20 @@ public class Player_Controller : Attack_Object
     new void Start()
     {
         base.Start();
-        _mainRB = GetComponent<Rigidbody>();
-        _animator = GetComponent<Animator>();
     }
 
     new void Update()
     {
         base.Update();
         _horizontal = Input.GetAxisRaw("Horizontal");
-        _vertical = Input.GetAxisRaw("Vertical");
+        _vertical = Input.GetAxisRaw("Vertical");        
 
         if (_actionCooldown <= 0)
         {
             // Character is running
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetButton("Fire1"))
             {
                 Skill();
-                _actionCooldown = 1 / _actionSpeed;
             }
             else if (_horizontal != 0 || _vertical != 0)
             {
@@ -56,27 +50,34 @@ public class Player_Controller : Attack_Object
             {
                 _animator.SetInteger("_animState", 0);
             }
-        }        
-        
+        }
+
         if (_actionCooldown > 0)
         {
             _actionCooldown -= Time.deltaTime;
 
-            if (_actionCooldown <= _actionActivation)
+            if (_actionCooldown < _actionActivation + 0.05f || _actionCooldown < _actionActivation - 0.05f)
             {
                 _hitboxes[0].enabled = true;
+            }
+            else
+            {
+                _hitboxes[0].enabled = false;
             }
         }
         else
         {
             _hitboxes[0].enabled = false;
-        }        
+            _animator.speed = 1;
+        }
     }
 
     private void Skill()
     {
+        _actionCooldown = 1 / (_attackSpeed * _actionSpeed);
+        _actionActivation = _actionCooldown * 0.45f;
+        _animator.speed = _attackSpeed * _actionSpeed;
         _animator.SetInteger("_animState", 2);
-        _actionActivation = 0.5f;
     }
 
     private void FixedUpdate()
@@ -91,7 +92,7 @@ public class Player_Controller : Attack_Object
                 _vertical *= _moveLimiter;
             }
 
-            _mainRB.velocity = new Vector3(_horizontal * _runSpeed, 0, _vertical * _runSpeed);
+            _mainRB.velocity = new Vector3(_horizontal * (_runSpeed * _actionSpeed), 0, _vertical * (_runSpeed * _actionSpeed));
         }
     }
 
