@@ -24,7 +24,7 @@ public class Mortal_Object : MonoBehaviour
     [SerializeField]
     private Transform _center;
 
-    private float _staggerCD = 0.5f;
+    private float _staggerCD = 0.1f;
     private float _staggerLeft = 0;
 
     protected int _currentHealth;
@@ -49,6 +49,9 @@ public class Mortal_Object : MonoBehaviour
     protected int _arcaneResistance;
     protected int _eldritchResistance;
 
+    //private float _second;
+    //private int _attacksPerSecond = 0;
+
     protected void Start()
     {
         _mainRB = GetComponent<Rigidbody>();
@@ -67,6 +70,22 @@ public class Mortal_Object : MonoBehaviour
 
     protected void Update()
     {
+        /* Damage tracker
+        if (gameObject.tag == "Enemy")
+        {
+            if (_second > 0)
+            {
+                _second -= Time.deltaTime;
+            }
+            else
+            {
+                Debug.Log(_attacksPerSecond);
+                _second = 1;
+                _attacksPerSecond = 0;
+            }
+        }  
+        */
+
         if (_staggerLeft > 0)
         {
             _staggerLeft -= Time.deltaTime;
@@ -150,6 +169,13 @@ public class Mortal_Object : MonoBehaviour
             _staggerLeft = _staggerCD;
             _animator.SetFloat("_damage", 1);
         }
+
+        /* Damage tracker
+        if (gameObject.tag == "Enemy")
+        {
+            _attacksPerSecond++;
+        }
+        */
     }
 
     protected void LoseMagic(int _amount)
@@ -160,7 +186,9 @@ public class Mortal_Object : MonoBehaviour
     protected void Death()
     {
         GetComponent<Collider>().enabled = false;
+        GetComponent<Rigidbody>().isKinematic = true;
         GetComponent<Mortal_Object>().enabled = false;
+        _animator.speed = 1;
         _animator.SetBool("_death", true);
     }
 

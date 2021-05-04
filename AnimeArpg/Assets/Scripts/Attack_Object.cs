@@ -13,18 +13,52 @@ public class Attack_Object : Mortal_Object
     protected float _attackSpeed;
 
     [SerializeField]
+    protected Collider[] _attackHitboxes;
+    [SerializeField]
     protected GameObject _hitEffect;
     [SerializeField]
     protected LayerMask _enemies;
+
+    protected float _actionSpeed = 1;
+    protected float _actionActivation;
+    protected float _actionCooldown;
 
     new void Start()
     {
         base.Start();
     }
 
-    new void Update()
+    protected new void Update()
     {
         base.Update();
+
+        if (_actionCooldown > 0)
+        {
+            _actionCooldown -= Time.deltaTime;
+
+            // Activate hitboxes during certain parts of an attack animation, each activation makes the hitbox active for 20% of the animation's duration
+            if (_actionCooldown < (_actionActivation + _actionCooldown * 0.1f) || _actionCooldown < (_actionActivation - _actionCooldown * 0.1f))
+            {
+                _attackHitboxes[0].enabled = true;
+            }
+            else
+            {
+                _attackHitboxes[0].enabled = false;
+            }
+        }
+        else
+        {
+            _attackHitboxes[0].enabled = false;
+            _animator.speed = 1;
+        }
+    }
+
+    protected void Skill(float _activation)
+    {
+        _actionCooldown = 1 / (_attackSpeed * _actionSpeed);
+        _actionActivation = _actionCooldown * _activation;
+        _animator.speed = _attackSpeed * _actionSpeed;
+        _animator.SetInteger("_animState", 2);
     }
 
     public void DealHit(Mortal_Object _target)
