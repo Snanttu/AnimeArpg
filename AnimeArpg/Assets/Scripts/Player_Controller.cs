@@ -48,6 +48,9 @@ public class Player_Controller : Attack_Object
 
                     transform.rotation = Quaternion.LookRotation(targetPos);
 
+                    _currentMana -= 5;
+                    _currentStamina -= 15;
+
                     Skill(0.45f);
                 }                
             }
@@ -88,5 +91,4 @@ public class Player_Controller : Attack_Object
             _mainRB.velocity = new Vector3(0, 0, 0);
         }
     }
-
 }

@@ -340,7 +340,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _baseHealth: 300
-  _baseMagic: 0
+  _baseHealthRegen: 0
+  _baseMana: 0
+  _baseManaRegen: 0
+  _baseStamina: 100
+  _baseStaminaRegen: 0
   _baseArmour: 100
   _baseMagicArmour: 0
   _damageText: {fileID: 2429662653161944426, guid: 2fc83bf655a7fbd459046b9d31c1fec7, type: 3}
@@ -355,6 +359,7 @@ MonoBehaviour:
   _enemies:
     serializedVersion: 2
     m_Bits: 8
+  _runSpeed: 3
 --- !u!54 &4821244104407362843
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -369,7 +374,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!1 &1168622319993199979
 GameObject:

@@ -12,8 +12,12 @@ PrefabInstance:
       value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 589561749983830401, guid: 14a78fd589a5eae4daa4d031eaf09670, type: 3}
+      propertyPath: _attackSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 589561749983830401, guid: 14a78fd589a5eae4daa4d031eaf09670, type: 3}
       propertyPath: _basePhysicalAttack
-      value: 500
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 654843082425030858, guid: 14a78fd589a5eae4daa4d031eaf09670, type: 3}
       propertyPath: _baseArmour

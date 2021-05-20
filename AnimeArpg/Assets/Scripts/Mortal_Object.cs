@@ -6,13 +6,21 @@ using UnityEngine;
 public class Mortal_Object : MonoBehaviour
 {
     [SerializeField]
-    protected int _baseHealth;
+    protected int _baseHealth = 100;
     [SerializeField]
-    protected int _baseMagic;
+    protected float _baseHealthRegen = 0;
     [SerializeField]
-    protected int _baseArmour;
+    protected int _baseMana = 100;
     [SerializeField]
-    protected int _baseMagicArmour;
+    protected float _baseManaRegen = 0.05f;
+    [SerializeField]
+    protected int _baseStamina = 100;
+    [SerializeField]
+    protected float _baseStaminaRegen = 0.15f;
+    [SerializeField]
+    protected int _baseArmour = 0;
+    [SerializeField]
+    protected int _baseMagicArmour = 0;
 
     protected Rigidbody _mainRB;
     protected Animator _animator;
@@ -26,11 +34,16 @@ public class Mortal_Object : MonoBehaviour
 
     private float _staggerCD = 0.1f;
     private float _staggerLeft = 0;
-
     protected int _currentHealth;
-    protected int _maximumHealth;
-    protected int _currentMagic;
-    protected int _maximumMagic;
+    protected int _maximumHealth;    
+    private float _healthRegen = 0;
+    protected int _currentMana;
+    protected int _maximumMana;    
+    private float _manaRegen = 0;
+    protected int _currentStamina;
+    protected int _maximumStamina;
+    
+    private float _staminaRegen = 0;
 
     // Defences         100 armour blocks 50% of 100 damage. Maximum mitigation 75%
     protected int _armour;
@@ -50,7 +63,7 @@ public class Mortal_Object : MonoBehaviour
     protected int _eldritchResistance;
 
     //private float _second;
-    //private int _attacksPerSecond = 0;
+    //private int _somethingPerSecond = 0;
 
     protected void Start()
     {
@@ -61,8 +74,11 @@ public class Mortal_Object : MonoBehaviour
         _maximumHealth = _baseHealth;
         _currentHealth = _maximumHealth;
 
-        _maximumMagic = _baseMagic;
-        _currentMagic = _maximumMagic;
+        _maximumMana = _baseMana;
+        _currentMana = _maximumMana;
+
+        _maximumStamina = _baseStamina;
+        _currentStamina = _maximumStamina;
 
         _armour = _baseArmour;
         _magicArmour = _baseMagicArmour;
@@ -70,8 +86,8 @@ public class Mortal_Object : MonoBehaviour
 
     protected void Update()
     {
-        /* Damage tracker
-        if (gameObject.tag == "Enemy")
+        /*
+        if (gameObject.tag == "Player")
         {
             if (_second > 0)
             {
@@ -79,9 +95,9 @@ public class Mortal_Object : MonoBehaviour
             }
             else
             {
-                Debug.Log(_attacksPerSecond);
+                Debug.Log(_somethingPerSecond);
                 _second = 1;
-                _attacksPerSecond = 0;
+                _somethingPerSecond = 0;
             }
         }  
         */
@@ -95,6 +111,9 @@ public class Mortal_Object : MonoBehaviour
             _animator.SetFloat("_damage", 0);
         }
 
+
+        Regen();
+
         // Health constraints
         if (_currentHealth > _maximumHealth)
         {
@@ -106,19 +125,68 @@ public class Mortal_Object : MonoBehaviour
         }
 
         // Magic constraints
-        if (_currentMagic > _maximumMagic)
+        if (_currentMana > _maximumMana)
         {
-            _currentMagic = _maximumMagic;
+            _currentMana = _maximumMana;
         }
-        else if (_currentMagic < 0)
+        else if (_currentMana < 0)
         {
-            _currentMagic = 0;
+            _currentMana = 0;
+        }
+
+        // Stamina constraints
+        if (_currentStamina > _maximumStamina)
+        {
+            _currentStamina = _maximumStamina;
+        }
+        else if (_currentStamina < 0)
+        {
+            _currentStamina = 0;
         }
 
         if (_currentHealth <= 0)
         {
             Death();
         }
+    }
+
+    public void Regen()
+    {
+        float _healthRegenPercentage = ((float)_maximumHealth * _baseHealthRegen) * Time.deltaTime;
+        _healthRegen += _healthRegenPercentage;
+        int _addHealth = 0;
+
+        if (_healthRegen > 1)
+        {            
+            _addHealth = (int)(_healthRegen);
+            _healthRegen -= _addHealth;
+        }
+
+        _currentHealth += _addHealth;
+
+        float _manaRegenPercentage = ((float)_maximumMana * _baseManaRegen) * Time.deltaTime;
+        _manaRegen += _manaRegenPercentage;
+        int _addMana = 0;
+
+        if (_manaRegen > 1)
+        {
+            _addMana = (int)(_manaRegen);
+            _manaRegen -= _addMana;
+        }
+
+        _currentMana += _addMana;
+
+        float _staminaRegenPercentage = ((float)_maximumStamina * _baseStaminaRegen) * Time.deltaTime;
+        _staminaRegen += _staminaRegenPercentage;
+        int _addStamina = 0;
+
+        if (_staminaRegen > 1)
+        {
+            _addStamina = (int)(_staminaRegen);
+            _staminaRegen -= _addStamina;
+        }
+
+        _currentStamina += _addStamina;
     }
 
     public void GetHit(int _physDamage, int _magicDamage, int _magicLoss, GameObject _attacker, GameObject _hitEffect)
@@ -169,18 +237,11 @@ public class Mortal_Object : MonoBehaviour
             _staggerLeft = _staggerCD;
             _animator.SetFloat("_damage", 1);
         }
-
-        /* Damage tracker
-        if (gameObject.tag == "Enemy")
-        {
-            _attacksPerSecond++;
-        }
-        */
     }
 
     protected void LoseMagic(int _amount)
     {
-        _currentMagic -= _amount;
+        _currentMana -= _amount;
     }
 
     protected void Death()
@@ -189,7 +250,9 @@ public class Mortal_Object : MonoBehaviour
         GetComponent<Rigidbody>().isKinematic = true;
         GetComponent<Mortal_Object>().enabled = false;
         _animator.speed = 1;
+        _mainRB.velocity = new Vector3(0, 0, 0);
         _animator.SetBool("_death", true);
+        gameObject.tag = "Corpse";
     }
 
     public int GetMaxHealth()
@@ -200,5 +263,25 @@ public class Mortal_Object : MonoBehaviour
     public int GetHealth()
     {
         return _currentHealth;
+    }
+
+    public int GetMaxMana()
+    {
+        return _maximumMana;
+    }
+
+    public int GetMana()
+    {
+        return _currentMana;
+    }
+
+    public int GetMaxStamina()
+    {
+        return _maximumStamina;
+    }
+
+    public int GetStamina()
+    {
+        return _currentStamina;
     }
 }
