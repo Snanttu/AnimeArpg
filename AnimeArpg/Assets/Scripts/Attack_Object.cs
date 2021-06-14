@@ -13,7 +13,7 @@ public class Attack_Object : Mortal_Object
     protected float _attackSpeed;
 
     [SerializeField]
-    protected Collider2D[] _attackHitboxes;
+    protected Collider[] _attackHitboxes;
     [SerializeField]
     protected GameObject _hitEffect;
     [SerializeField]

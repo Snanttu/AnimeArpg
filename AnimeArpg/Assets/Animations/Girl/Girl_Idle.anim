@@ -564,7 +564,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: -0.224, z: 0}
+        value: {x: 0, y: 5.08, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -573,7 +573,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: -0.162, y: -0.186, z: 0}
+        value: {x: -0.162, y: 5.12, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -582,7 +582,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 2
-        value: {x: 0, y: -0.224, z: 0}
+        value: {x: 0, y: 5.08, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -2340,7 +2340,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.224
+        value: 5.08
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2349,7 +2349,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: -0.186
+        value: 5.12
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2358,7 +2358,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 2
-        value: -0.224
+        value: 5.08
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2639,6 +2639,96 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_B_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_B_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_B_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Girl_Sprites/Girl_Bottom/Girl_Leg_F_1/Girl_Leg_F_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Girl_Sprites/Girl_Bottom/Girl_Leg_F_1/Girl_Leg_F_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Girl_Sprites/Girl_Bottom/Girl_Leg_F_1/Girl_Leg_F_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1/Girl_Arm_F_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1/Girl_Arm_F_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1/Girl_Arm_F_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
     path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_B_1/Girl_Arm_B_2
     classID: 4
     script: {fileID: 0}
@@ -2699,66 +2789,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1/Girl_Arm_F_2/Girl_Arm_F_3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1/Girl_Arm_F_2/Girl_Arm_F_3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1/Girl_Arm_F_2/Girl_Arm_F_3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_B_1/Girl_Arm_B_2/Girl_Arm_B_3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_B_1/Girl_Arm_B_2/Girl_Arm_B_3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_B_1/Girl_Arm_B_2/Girl_Arm_B_3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
     path: Girl_Sprites/Girl_Bottom/Girl_Waist
     classID: 4
     script: {fileID: 0}
@@ -2780,66 +2810,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: Girl_Sprites/Girl_Bottom/Girl_Waist
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Girl_Sprites/Girl_Bottom/Girl_Leg_B_1/Girl_Leg_B_2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Girl_Sprites/Girl_Bottom/Girl_Leg_B_1/Girl_Leg_B_2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Girl_Sprites/Girl_Bottom/Girl_Leg_B_1/Girl_Leg_B_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2879,7 +2849,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Girl_Sprites/Girl_Bottom/Girl_Leg_F_1/Girl_Leg_F_2
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2889,7 +2859,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Girl_Sprites/Girl_Bottom/Girl_Leg_F_1/Girl_Leg_F_2
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2899,97 +2869,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Girl_Sprites/Girl_Bottom/Girl_Leg_F_1/Girl_Leg_F_2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_B_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_B_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_B_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Girl_Sprites/Girl_Bottom/Girl_Leg_B_1/Girl_Leg_B_2/Girl_Leg_B_3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Girl_Sprites/Girl_Bottom/Girl_Leg_B_1/Girl_Leg_B_2/Girl_Leg_B_3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Girl_Sprites/Girl_Bottom/Girl_Leg_B_1/Girl_Leg_B_2/Girl_Leg_B_3
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3029,7 +2909,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1/Girl_Arm_F_2
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3039,7 +2919,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1/Girl_Arm_F_2
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3049,7 +2929,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1/Girl_Arm_F_2
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3059,7 +2939,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Neck
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_B_1/Girl_Arm_B_2/Girl_Arm_B_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3069,7 +2949,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Neck
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_B_1/Girl_Arm_B_2/Girl_Arm_B_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3079,7 +2959,127 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Neck
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_B_1/Girl_Arm_B_2/Girl_Arm_B_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Girl_Sprites/Girl_Bottom/Girl_Leg_B_1/Girl_Leg_B_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Girl_Sprites/Girl_Bottom/Girl_Leg_B_1/Girl_Leg_B_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Girl_Sprites/Girl_Bottom/Girl_Leg_B_1/Girl_Leg_B_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Girl_Sprites/Girl_Bottom/Girl_Leg_B_1/Girl_Leg_B_2/Girl_Leg_B_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Girl_Sprites/Girl_Bottom/Girl_Leg_B_1/Girl_Leg_B_2/Girl_Leg_B_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Girl_Sprites/Girl_Bottom/Girl_Leg_B_1/Girl_Leg_B_2/Girl_Leg_B_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1/Girl_Arm_F_2/Girl_Arm_F_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1/Girl_Arm_F_2/Girl_Arm_F_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Girl_Sprites/Girl_Bottom/Girl_Waist/Girl_Chest/Girl_Arm_F_1/Girl_Arm_F_2/Girl_Arm_F_3
     classID: 4
     script: {fileID: 0}
   - curve:

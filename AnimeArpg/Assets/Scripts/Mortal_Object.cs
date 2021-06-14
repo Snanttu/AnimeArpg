@@ -22,13 +22,13 @@ public class Mortal_Object : MonoBehaviour
     [SerializeField]
     protected int _baseMagicArmour = 0;
 
-    protected Rigidbody2D _mainRB;
+    protected Rigidbody _mainRB;
     protected Animator _animator;
 
     [SerializeField]
     private GameObject _damageText;
     [SerializeField]
-    private Transform _damageLocation;
+    private Transform _textLocation;
     [SerializeField]
     private Transform _center;
 
@@ -67,7 +67,7 @@ public class Mortal_Object : MonoBehaviour
 
     protected void Start()
     {
-        _mainRB = GetComponent<Rigidbody2D>();
+        _mainRB = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
 
         // Set base stats
@@ -227,7 +227,7 @@ public class Mortal_Object : MonoBehaviour
 
         if (_damageText != null)
         {
-            GameObject _text = Instantiate(_damageText, _damageLocation.position, Quaternion.identity);
+            GameObject _text = Instantiate(_damageText, _textLocation.position, Quaternion.identity);
             Floating_Text _textScript = _text.GetComponent<Floating_Text>();
             _textScript.SetText(finalDamage.ToString());
         }
@@ -246,6 +246,8 @@ public class Mortal_Object : MonoBehaviour
 
     protected void Death()
     {
+        Destroy(gameObject);
+        /*
         GetComponent<Collider>().enabled = false;
         GetComponent<Rigidbody>().isKinematic = true;
         GetComponent<Mortal_Object>().enabled = false;
@@ -253,6 +255,7 @@ public class Mortal_Object : MonoBehaviour
         _mainRB.velocity = new Vector3(0, 0, 0);
         _animator.SetBool("_death", true);
         gameObject.tag = "Corpse";
+        */
     }
 
     public int GetMaxHealth()

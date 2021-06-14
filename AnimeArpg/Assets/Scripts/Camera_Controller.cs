@@ -41,6 +41,6 @@ public class Camera_Controller : MonoBehaviour
 
         float _yZoom = transform.position.z * _zoomPos;
 
-        transform.position = new Vector3(_player.transform.position.x, _yZoom + _yPos, transform.position.z);
+        transform.position = new Vector3(_player.transform.position.x, _player.transform.position.y + _yZoom + _yPos, transform.position.z);
     }
 }

@@ -12,6 +12,8 @@ public class Melee_Enemy : Attack_Object
     protected Vector3 _targetPosition;
     protected float _distanceFromTarget;
 
+    bool _grounded;
+
     // Start is called before the first frame update
     new void Start()
     {
@@ -38,51 +40,91 @@ public class Melee_Enemy : Attack_Object
             _distanceFromTarget = Vector2.Distance(transform.position, _targetPosition);
         }
 
-        if (_actionCooldown <= 0)
-        {       
-            Vector3 _box = new Vector3(transform.position.x, transform.position.y, transform.position.z - 1);
-            Collider[] _playerCheck = Physics.OverlapBox(_box, new Vector3(1, 1, 1), transform.rotation, _enemies);
+        // Ground check
+        Collider[] _groundCheck = Physics.OverlapBox(gameObject.transform.position, new Vector3(1, 0.2f, 0.2f), Quaternion.identity, LayerMask.GetMask("Terrain"));
 
-            // Character is performing a skill
-            if (_playerCheck.Length > 0)
-            {
-                Vector3 targetPos = _playerCheck[0].transform.position;
-
-                targetPos -= transform.position;
-                targetPos.y = 0;
-
-                transform.rotation = Quaternion.LookRotation(targetPos);
-
-                Skill(0.45f);
-            }
-            // Character is standing still
-            else
-            {
-                _animator.SetInteger("_animState", 0);
-            }
+        if (_groundCheck.Length > 0)
+        {
+            _grounded = true;
         }
+        else
+        {
+            _grounded = false;
+        }
+
+        // On the ground
+        if (_grounded)
+        {
+            if (_actionCooldown <= 0)
+            {
+                Vector3 _box = new Vector3(transform.position.x + 1, transform.position.y + 2, transform.position.z);
+                Collider[] _playerCheck = Physics.OverlapBox(_box, new Vector3(1, 2, 1), transform.rotation, _enemies);
+
+                // Character is performing a skill
+                if (_playerCheck.Length > 0)
+                {
+                    Vector3 targetPos = _playerCheck[0].transform.position;
+
+                    // Rotate character towards movement
+                    if (targetPos.x > transform.position.x)
+                    {
+                        transform.localScale = new Vector3(1, 1, 1);
+                    }
+                    else
+                    {
+                        transform.localScale = new Vector3(-1, 1, 1);
+                    }
+
+                    Skill(0.45f);
+                }
+                // Character is moving
+                else if (_mainRB.velocity.x != 0)
+                {
+                    _animator.SetInteger("_animState", 1);
+                }
+                // Character is standing still
+                else
+                {
+                    _animator.SetInteger("_animState", 0);
+                }
+            }            
+        }
+        // In the air
+        else
+        {
+            Debug.Log(_mainRB.velocity.y);
+            _animator.SetInteger("_animState", 3);
+            _animator.SetFloat("_velocityY", _mainRB.velocity.y);
+            _mainRB.AddForce(Physics.gravity * 0.1f);
+        }
+
+        
     }
 
     private void FixedUpdate()
     {
         if (_actionCooldown <= 0)
         {
-            if (_player != null)
+            if (_player != null && _grounded)
             {
                 float _directionX = _targetPosition.x - transform.position.x;
-                float _directionZ = _targetPosition.z - transform.position.z;
 
-                _mainRB.velocity = new Vector3(_directionX, 0, _directionZ).normalized * (_runSpeed * _actionSpeed);
+                _mainRB.velocity = new Vector3(_directionX, 0, 0).normalized * (_runSpeed * _actionSpeed);                
 
                 // Rotate character towards movement
-                float singleStep = 10f * Time.deltaTime;
-                Vector3 newDirection = Vector3.RotateTowards(transform.forward, new Vector3(_directionX, 0.0f, _directionZ), singleStep, 0.0f);
-                transform.rotation = Quaternion.LookRotation(newDirection);
+                if (_directionX > 0)
+                {
+                    transform.localScale = new Vector3(1, 1, 1);
+                }
+                else
+                {
+                    transform.localScale = new Vector3(-1, 1, 1);
+                }
             }
-            else
-            {
-                _mainRB.velocity = new Vector3(0, 0, 0);
-            }
-        }        
+        }
+        else
+        {
+            _mainRB.velocity = new Vector3(0, 0, 0);
+        }
     }
 }
