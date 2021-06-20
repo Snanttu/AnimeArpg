@@ -99,5 +99,5 @@ MonoBehaviour:
   _player: {fileID: 0}
   _minZoom: -12
   _maxZoom: -4
-  _yPos: 0.5
+  _yPos: 0.7
   _zoomPos: -0.25

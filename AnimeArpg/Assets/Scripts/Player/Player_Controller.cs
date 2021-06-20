@@ -75,19 +75,18 @@ public class Player_Controller : Attack_Object
                 // Character is moving
                 else if (_horizontal != 0)
                 {
-                    _animator.SetInteger("_animState", 1);
+                    CallAnimation(1);
                 }
                 // Character is standing still
                 else
                 {
-                    _animator.SetInteger("_animState", 0);
+                    CallAnimation(0);
                 }
             }
             // In the air
             else
             {
-                Debug.Log(_mainRB.velocity.y);
-                _animator.SetInteger("_animState", 3);
+                CallAnimation(3);
                 _animator.SetFloat("_velocityY", _mainRB.velocity.y);
                 _mainRB.AddForce(Physics.gravity * 0.1f);
             }

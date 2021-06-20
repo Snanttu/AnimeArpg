@@ -150,6 +150,11 @@ public class Mortal_Object : MonoBehaviour
         }
     }
 
+    protected void CallAnimation(float _new)
+    {      
+        _animator.SetInteger("_animState", (int)_new);
+    }
+
     public void Regen()
     {
         float _healthRegenPercentage = ((float)_maximumHealth * _baseHealthRegen) * Time.deltaTime;
@@ -246,16 +251,13 @@ public class Mortal_Object : MonoBehaviour
 
     protected void Death()
     {
-        Destroy(gameObject);
-        /*
         GetComponent<Collider>().enabled = false;
         GetComponent<Rigidbody>().isKinematic = true;
         GetComponent<Mortal_Object>().enabled = false;
         _animator.speed = 1;
         _mainRB.velocity = new Vector3(0, 0, 0);
         _animator.SetBool("_death", true);
-        gameObject.tag = "Corpse";
-        */
+        gameObject.tag = "Corpse";        
     }
 
     public int GetMaxHealth()

@@ -12,7 +12,8 @@ public class Melee_Enemy : Attack_Object
     protected Vector3 _targetPosition;
     protected float _distanceFromTarget;
 
-    bool _grounded;
+    private int _direction = 1;
+    private bool _grounded;
 
     // Start is called before the first frame update
     new void Start()
@@ -37,6 +38,9 @@ public class Melee_Enemy : Attack_Object
         if (_player != null)
         {
             _targetPosition = _player.transform.position;
+
+            _direction = (_targetPosition.x < transform.position.x) ? -1 : 1;
+
             _distanceFromTarget = Vector2.Distance(transform.position, _targetPosition);
         }
 
@@ -57,7 +61,7 @@ public class Melee_Enemy : Attack_Object
         {
             if (_actionCooldown <= 0)
             {
-                Vector3 _box = new Vector3(transform.position.x + 1, transform.position.y + 2, transform.position.z);
+                Vector3 _box = new Vector3(transform.position.x + _direction, transform.position.y + 2, transform.position.z);
                 Collider[] _playerCheck = Physics.OverlapBox(_box, new Vector3(1, 2, 1), transform.rotation, _enemies);
 
                 // Character is performing a skill
