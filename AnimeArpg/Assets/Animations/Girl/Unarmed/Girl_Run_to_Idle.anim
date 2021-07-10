@@ -384,136 +384,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Sprites/Side_Bottom/Side_Waist
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: 4.141}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.083333336
-        value: {x: 0, y: 0, z: 1.2780001}
-        inSlope: {x: 0, y: 0, z: -22.904}
-        outSlope: {x: 0, y: 0, z: -22.904}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.25
-        value: {x: 0, y: 0, z: -1.585}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.41666666
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: 2.514}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.083333336
-        value: {x: 0, y: 0, z: 0.8160001}
-        inSlope: {x: 0, y: 0, z: -13.584}
-        outSlope: {x: 0, y: 0, z: -13.584}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.25
-        value: {x: 0, y: 0, z: -0.882}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.41666666
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: 7.463}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.083333336
-        value: {x: 0, y: 0, z: 13.9054985}
-        inSlope: {x: 0, y: 0, z: 51.54}
-        outSlope: {x: 0, y: 0, z: 51.54}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.25
-        value: {x: 0, y: 0, z: 20.348}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.41666666
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck/Side_Head
+    path: Sprites/Side_Bottom/Side_Chest
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -556,7 +427,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -599,7 +470,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -624,7 +495,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -667,7 +538,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -710,7 +581,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -735,7 +606,93 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: 0, z: 2.514}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.083333336
+        value: {x: 0, y: 0, z: 0.8160001}
+        inSlope: {x: 0, y: 0, z: -13.584}
+        outSlope: {x: 0, y: 0, z: -13.584}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.25
+        value: {x: 0, y: 0, z: -0.882}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.41666666
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: 0, z: 7.463}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.083333336
+        value: {x: 0, y: 0, z: 13.9054985}
+        inSlope: {x: 0, y: 0, z: 51.54}
+        outSlope: {x: 0, y: 0, z: 51.54}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.25
+        value: {x: 0, y: 0, z: 20.348}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.41666666
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck/Side_Head
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -913,70 +870,63 @@ AnimationClip:
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1062217710
+      path: 3726811202
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2787986537
+      path: 3394111132
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3055529990
+      path: 3808525669
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3253024628
+      path: 2855140929
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2768276745
+      path: 3444026944
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1606740801
+      path: 809081150
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 507253595
+      path: 779843787
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2718508501
+      path: 3674715710
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2365329178
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2590676433
+      path: 2363788169
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -2319,7 +2269,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Sprites/Side_Bottom/Side_Waist
+    path: Sprites/Side_Bottom/Side_Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2365,7 +2315,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Sprites/Side_Bottom/Side_Waist
+    path: Sprites/Side_Bottom/Side_Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2411,7 +2361,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Sprites/Side_Bottom/Side_Waist
+    path: Sprites/Side_Bottom/Side_Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2457,7 +2407,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2503,421 +2453,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 4.141
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.083333336
-        value: 1.2780001
-        inSlope: -22.904
-        outSlope: -22.904
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.25
-        value: -1.585
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.41666666
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.083333336
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.25
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.41666666
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.083333336
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.25
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.41666666
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 2.514
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.083333336
-        value: 0.8160001
-        inSlope: -13.584
-        outSlope: -13.584
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.25
-        value: -0.882
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.41666666
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.083333336
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.25
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.41666666
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck/Side_Head
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.083333336
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.25
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.41666666
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck/Side_Head
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 7.463
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.083333336
-        value: 13.9054985
-        inSlope: 51.54
-        outSlope: 51.54
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.25
-        value: 20.348
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.41666666
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck/Side_Head
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.083333336
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.25
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.41666666
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.083333336
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.25
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.41666666
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2963,7 +2499,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3009,7 +2545,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3055,7 +2591,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3101,7 +2637,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3129,7 +2665,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3157,7 +2693,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3185,7 +2721,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3231,7 +2767,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3277,7 +2813,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3323,7 +2859,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3369,7 +2905,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3415,7 +2951,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3461,7 +2997,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3489,7 +3025,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3517,7 +3053,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3545,7 +3081,283 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 2.514
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: 0.8160001
+        inSlope: -13.584
+        outSlope: -13.584
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.25
+        value: -0.882
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck/Side_Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck/Side_Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 7.463
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.083333336
+        value: 13.9054985
+        inSlope: 51.54
+        outSlope: 51.54
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.25
+        value: 20.348
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck/Side_Head
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -3586,7 +3398,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3596,7 +3408,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3606,7 +3418,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3616,7 +3428,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3626,7 +3438,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3636,7 +3448,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3646,7 +3458,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest
+    path: Sprites/Side_Bottom/Side_Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3656,7 +3468,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest
+    path: Sprites/Side_Bottom/Side_Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3666,7 +3478,27 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest
+    path: Sprites/Side_Bottom/Side_Chest
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Sprites/Side_Bottom/Side_Leg_F_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Sprites/Side_Bottom/Side_Leg_F_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3676,27 +3508,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1
+    path: Sprites/Side_Bottom/Side_Leg_F_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3736,7 +3548,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3746,7 +3558,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3756,7 +3568,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3766,7 +3578,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck/Side_Head
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3776,7 +3588,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck/Side_Head
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3786,7 +3598,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Neck/Side_Head
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3796,7 +3608,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3806,7 +3618,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3816,7 +3628,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3826,7 +3638,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Sprites/Side_Bottom/Side_Waist
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3836,7 +3648,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Sprites/Side_Bottom/Side_Waist
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3846,7 +3658,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Sprites/Side_Bottom/Side_Waist
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_F_1/Side_Arm_F_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3916,7 +3728,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3926,7 +3738,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3936,7 +3748,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1
+    path: Sprites/Side_Bottom/Side_Chest/Side_Arm_B_1/Side_Arm_B_2/Side_Arm_B_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4005,8 +3817,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Sprites/Side_Bottom/Side_Leg_F_1
+    attribute: m_LocalEulerAngles.x
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck/Side_Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4016,37 +3828,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Sprites/Side_Bottom/Side_Leg_F_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Sprites/Side_Bottom/Side_Leg_F_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck/Side_Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4056,7 +3838,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Sprites/Side_Bottom/Side_Waist/Side_Chest/Side_Arm_F_1/Side_Arm_F_2/Side_Arm_F_3
+    path: Sprites/Side_Bottom/Side_Chest/Side_Neck/Side_Head
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
