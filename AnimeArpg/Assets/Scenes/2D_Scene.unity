@@ -772,14 +772,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 458849009, guid: 56dc5642ffb7a7b478bbfcf6b8addd9e, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.000000059604645
-      objectReference: {fileID: 0}
-    - target: {fileID: 458849009, guid: 56dc5642ffb7a7b478bbfcf6b8addd9e, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.0000003874302
-      objectReference: {fileID: 0}
+    - target: {fileID: 1379012317613108359, guid: 56dc5642ffb7a7b478bbfcf6b8addd9e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8f9ae1f96071d8d498057f9689366efb, type: 3}
     - target: {fileID: 2684338268813246010, guid: 56dc5642ffb7a7b478bbfcf6b8addd9e, type: 3}
       propertyPath: m_Name
       value: Girl
@@ -826,6 +822,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2684338268813246013, guid: 56dc5642ffb7a7b478bbfcf6b8addd9e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355504102764112086, guid: 56dc5642ffb7a7b478bbfcf6b8addd9e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355504102764112086, guid: 56dc5642ffb7a7b478bbfcf6b8addd9e, type: 3}
+      propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
