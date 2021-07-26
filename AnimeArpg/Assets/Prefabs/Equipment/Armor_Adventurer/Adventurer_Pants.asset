@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2e7ee56a4ac23f4ab1e1266f3603fdb, type: 3}
+  m_Name: Adventurer_Pants
+  m_EditorClassIdentifier: 
+  _name: Adventurer Pants
+  _description: 
+  _pantsSprites:
+  - {fileID: 21300000, guid: 0e2af75d4835e244d990778675609e58, type: 3}
+  - {fileID: 21300000, guid: d5602f07274e23e43a8f21b373e62816, type: 3}
+  - {fileID: 21300000, guid: eae93d632d55082419ab4fecd4b93fd1, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 80ec63a661f6c4549bda86c0fac09047, type: 3}
+  - {fileID: 21300000, guid: 833e31669621bea4dba663c362a9ec2d, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: a1da0b7d6f6fa2b4c89d1c8a2af212da, type: 3}
+  - {fileID: 21300000, guid: f9b74f7eb5ebae1408e430ccb4bedcbf, type: 3}
+  - {fileID: 21300000, guid: 607330b238fdd844abca9949975bc9eb, type: 3}
+  - {fileID: 21300000, guid: 833e31669621bea4dba663c362a9ec2d, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 80ec63a661f6c4549bda86c0fac09047, type: 3}
+  - {fileID: 21300000, guid: 833e31669621bea4dba663c362a9ec2d, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 3846aa0d3b9af2e4da3dd0e522ffe6fe, type: 3}
+  - {fileID: 21300000, guid: 8fdb41ac24d9de645b32fa505189783c, type: 3}
+  - {fileID: 21300000, guid: 98afeb4029e318342afc6fc2d738c088, type: 3}
+  - {fileID: 21300000, guid: 33593557957c78747aa98836b60ab4a5, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 80ec63a661f6c4549bda86c0fac09047, type: 3}
+  - {fileID: 21300000, guid: 833e31669621bea4dba663c362a9ec2d, type: 3}
+  - {fileID: 0}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d16170f64f81fa04fbe1dd0c489b2831, type: 3}
+  m_Name: Adventurer_Boots
+  m_EditorClassIdentifier: 
+  _name: Adventurer Boots
+  _description: 
+  _bootsSprites:
+  - {fileID: 21300000, guid: 98f6452b8bbd9574db3659df18e1361e, type: 3}
+  - {fileID: 21300000, guid: d7a19285600ef8b448245a59ff97f5e9, type: 3}
+  - {fileID: 21300000, guid: a185a0084c5fc804796743f040f4a9ef, type: 3}
+  - {fileID: 21300000, guid: 1ebc5de8067b7c542a90055e3c9c9e8b, type: 3}
+  - {fileID: 21300000, guid: b524104db665dc24dae2aceb70c142e9, type: 3}
+  - {fileID: 21300000, guid: da68bdf9eb88f884cabb5a62973a3e6f, type: 3}
+  - {fileID: 21300000, guid: 1ebc5de8067b7c542a90055e3c9c9e8b, type: 3}
+  - {fileID: 21300000, guid: b524104db665dc24dae2aceb70c142e9, type: 3}
+  - {fileID: 21300000, guid: da68bdf9eb88f884cabb5a62973a3e6f, type: 3}
+  - {fileID: 21300000, guid: 1ebc5de8067b7c542a90055e3c9c9e8b, type: 3}
+  - {fileID: 21300000, guid: b524104db665dc24dae2aceb70c142e9, type: 3}
+  - {fileID: 21300000, guid: da68bdf9eb88f884cabb5a62973a3e6f, type: 3}
+  - {fileID: 21300000, guid: 1ebc5de8067b7c542a90055e3c9c9e8b, type: 3}
+  - {fileID: 21300000, guid: b524104db665dc24dae2aceb70c142e9, type: 3}
+  - {fileID: 21300000, guid: da68bdf9eb88f884cabb5a62973a3e6f, type: 3}
+  - {fileID: 21300000, guid: 90b653953ebe4f04f87ae3238e6e32a9, type: 3}
+  - {fileID: 21300000, guid: e3611775851f4514a9eb82fd92c89143, type: 3}
+  - {fileID: 21300000, guid: 3d566e4ae6b1bbf4e8047d9e89221744, type: 3}

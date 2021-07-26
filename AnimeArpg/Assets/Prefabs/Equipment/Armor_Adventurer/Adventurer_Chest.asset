@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd7aa2c3466ac542b7993ca62ca2ef5, type: 3}
+  m_Name: Adventurer_Chest
+  m_EditorClassIdentifier: 
+  _name: Adventurer Shirt
+  _description: 
+  _shirtSprites:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 0027ca8553f930f40b8e6687a0483bf5, type: 3}
+  - {fileID: 21300000, guid: fe2322da636f23942845724a9e3ff750, type: 3}
+  - {fileID: 21300000, guid: bd1faf5605f5f9e43a4246a1fd4145de, type: 3}
+  - {fileID: 21300000, guid: 95b60ba54c8f46040b2dc2ed3ff74011, type: 3}
+  - {fileID: 21300000, guid: 7b5ded1467cb9244891af8e8c744ad5e, type: 3}
+  - {fileID: 21300000, guid: 221e9cb45ef975741b288af512dc25b4, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 7271d9f5f47c5254eada10993badae60, type: 3}
+  - {fileID: 21300000, guid: 699ed30afb62b6541ad6a62ea9398e09, type: 3}
+  - {fileID: 21300000, guid: 0f2324c2518295c41acf3ec3a81ec851, type: 3}
+  - {fileID: 21300000, guid: 64f340840e2fe40478222e16abfe60cd, type: 3}
+  - {fileID: 21300000, guid: 0f2324c2518295c41acf3ec3a81ec851, type: 3}
+  - {fileID: 21300000, guid: 64f340840e2fe40478222e16abfe60cd, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: f2eecc81ce647af45a3cd80a8806715e, type: 3}
+  - {fileID: 21300000, guid: 9409413b4c8e633479f34bb769d86357, type: 3}
+  - {fileID: 21300000, guid: 5c85461f02ca8854bbb41b6cd5dcad65, type: 3}
+  - {fileID: 21300000, guid: 7b5ded1467cb9244891af8e8c744ad5e, type: 3}
+  - {fileID: 21300000, guid: 221e9cb45ef975741b288af512dc25b4, type: 3}
+  - {fileID: 21300000, guid: bd1faf5605f5f9e43a4246a1fd4145de, type: 3}
+  - {fileID: 21300000, guid: 95b60ba54c8f46040b2dc2ed3ff74011, type: 3}
+  _skirtSprites:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 0f9702cc8bb1da84e851193efe71ad32, type: 3}
+  - {fileID: 21300000, guid: 903250d1625053a48b3e0ca1b6bcf6d1, type: 3}
+  - {fileID: 21300000, guid: a372c1b476e31d14c9c1b4d9edbe8828, type: 3}
+  - {fileID: 21300000, guid: c3694989be4e431438a5327dd8dd22a4, type: 3}
+  - {fileID: 21300000, guid: d9ceefa73a4686449943305552316eeb, type: 3}
+  - {fileID: 21300000, guid: 1353dc9d8ce4d4f44932d3c04b12d3a5, type: 3}
+  _shoulderSprites:
+  - {fileID: 21300000, guid: 2530863db556bea4e8d97528dbbcd7bd, type: 3}
+  - {fileID: 21300000, guid: 8f9ae1f96071d8d498057f9689366efb, type: 3}
+  - {fileID: 21300000, guid: 2530863db556bea4e8d97528dbbcd7bd, type: 3}
+  - {fileID: 21300000, guid: 8f9ae1f96071d8d498057f9689366efb, type: 3}
