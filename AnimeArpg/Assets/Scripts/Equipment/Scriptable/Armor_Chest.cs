@@ -12,9 +12,16 @@ public class Armor_Chest : Equipment_Base
     [SerializeField]
     private Sprite[] _shoulderSprites;
 
+    [SerializeField]
+    private Sprite[] _masks;
+
     public Sprite GetChestSprite (int _index)
     {
         return _shirtSprites[_index];
+    }
+    public Sprite GetMask(int _index)
+    {
+        return _masks[_index];
     }
 
     public Sprite GetSkirtSprite(int _index)

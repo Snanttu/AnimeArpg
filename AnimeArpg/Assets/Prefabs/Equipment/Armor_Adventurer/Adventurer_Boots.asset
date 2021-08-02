@@ -33,3 +33,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 90b653953ebe4f04f87ae3238e6e32a9, type: 3}
   - {fileID: 21300000, guid: e3611775851f4514a9eb82fd92c89143, type: 3}
   - {fileID: 21300000, guid: 3d566e4ae6b1bbf4e8047d9e89221744, type: 3}
+  _masks:
+  - {fileID: 21300000, guid: 26ac53e8489e57a4e985f13f5f389341, type: 3}
+  - {fileID: 21300000, guid: 26ac53e8489e57a4e985f13f5f389341, type: 3}
+  - {fileID: 21300000, guid: ed1566afbf672d74d833dddecf2b97de, type: 3}
+  - {fileID: 21300000, guid: ed1566afbf672d74d833dddecf2b97de, type: 3}
+  - {fileID: 21300000, guid: 26ac53e8489e57a4e985f13f5f389341, type: 3}
+  - {fileID: 21300000, guid: 26ac53e8489e57a4e985f13f5f389341, type: 3}

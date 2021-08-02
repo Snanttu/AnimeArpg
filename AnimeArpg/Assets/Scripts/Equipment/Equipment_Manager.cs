@@ -16,17 +16,25 @@ public class Equipment_Manager : MonoBehaviour
     [SerializeField]
     private SpriteRenderer[] _chestSprites;
     [SerializeField]
+    private SpriteMask[] _chestMasks;
+    [SerializeField]
     private SpriteRenderer[] _chestSkirtSprites;
     [SerializeField]
     private SpriteRenderer[] _shoulderSprites;
     [SerializeField]
     private SpriteRenderer[] _pantsSprites;
     [SerializeField]
+    private SpriteMask[] _pantsMasks;
+    [SerializeField]
     private SpriteRenderer[] _glovesSprites;
+    [SerializeField]
+    private SpriteMask[] _glovesMasks;
     [SerializeField]
     private SpriteRenderer[] _handSprites;
     [SerializeField]
     private SpriteRenderer[] _bootsSprites;
+    [SerializeField]
+    private SpriteMask[] _bootsMasks;
 
     private Armor_Chest _currentChest;
     private Armor_Pants _currentPants;
@@ -73,6 +81,11 @@ public class Equipment_Manager : MonoBehaviour
             _chestSprites[i].sprite = _equippedChest.GetChestSprite(i);
         }
 
+        for (int i = 0; i < _chestMasks.Length; i++)
+        {
+            _chestMasks[i].sprite = _equippedChest.GetMask(i);
+        }
+
         for (int i = 0; i < _chestSkirtSprites.Length; i++)
         {
             _chestSkirtSprites[i].sprite = _equippedChest.GetSkirtSprite(i);
@@ -93,6 +106,11 @@ public class Equipment_Manager : MonoBehaviour
             _pantsSprites[i].sprite = _equippedPants.GetSprite(i);
         }
 
+        for (int i = 0; i < _pantsMasks.Length; i++)
+        {
+            _pantsMasks[i].sprite = _equippedPants.GetMask(i);
+        }
+
         _currentPants = _equippedPants;
     }
     public void ChangeBoots()
@@ -100,6 +118,11 @@ public class Equipment_Manager : MonoBehaviour
         for (int i = 0; i < _bootsSprites.Length; i++)
         {
             _bootsSprites[i].sprite = _equippedBoots.GetSprite(i);
+        }
+
+        for (int i = 0; i < _bootsMasks.Length; i++)
+        {
+            _bootsMasks[i].sprite = _equippedBoots.GetMask(i);
         }
 
         _currentBoots = _equippedBoots;
@@ -110,6 +133,11 @@ public class Equipment_Manager : MonoBehaviour
         for (int i = 0; i < _glovesSprites.Length; i++)
         {
             _glovesSprites[i].sprite = _equippedGloves.GetGlovesSprite(i);
+        }
+
+        for (int i = 0; i < _glovesMasks.Length; i++)
+        {
+            _glovesMasks[i].sprite = _equippedGloves.GetMask(i);
         }
 
         for (int i = 0; i < _handSprites.Length; i++)
